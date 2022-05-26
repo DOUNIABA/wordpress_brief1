@@ -1,0 +1,28 @@
+2022-05-26T13:48:17+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wp_print_media_templates" not found or invalid function name in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\script-loader.php(2139): do_action('wp_print_footer...')
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\seo-by-rank-math\includes\admin\wizard\views\footer.php(18): wp_print_footer_scripts()
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\seo-by-rank-math\includes\admin\class-registration.php(242): include_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(307): RankMath\Admin\Registration->render_page('')
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\wordpress\wp-admin\admin.php(175): do_action('admin_init')
+#9 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 307
+
+2022-05-26T13:49:03+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "wp_print_media_templates" not found or invalid function name in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\script-loader.php(2139): do_action('wp_print_footer...')
+#3 C:\xampp\htdocs\wordpress\wp-content\plugins\seo-by-rank-math\includes\admin\wizard\views\footer.php(18): wp_print_footer_scripts()
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\seo-by-rank-math\includes\admin\class-setup-wizard.php(298): include_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(307): RankMath\Admin\Setup_Wizard->admin_page('')
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\wordpress\wp-admin\admin.php(175): do_action('admin_init')
+#9 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 307
+
